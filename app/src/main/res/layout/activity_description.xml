@@ -12,6 +12,7 @@
 
         <TextView
             android:text="Item Description"
+            android:background="#D4C90D13"
             android:textSize="40dp"
             android:textAlignment="center"
             android:layout_width="match_parent"

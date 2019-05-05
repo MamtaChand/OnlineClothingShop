@@ -21,6 +21,7 @@
         android:layout_centerVertical="true"
         />
 
+
     <Button
         android:id="@+id/btnGetStarted"
         android:text="Login / Register"
@@ -29,6 +30,7 @@
         android:layout_below="@+id/txtTitle"
         android:textColor="#ffffff"
         android:background="#BFFF0000"
+        android:layout_marginTop="50dp"
         />
 
 </RelativeLayout>

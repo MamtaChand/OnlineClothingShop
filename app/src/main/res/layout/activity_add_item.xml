@@ -17,13 +17,15 @@
             android:textAlignment="center"
             android:textSize="30dp"
             android:fontFamily="sans-serif-light"
-            android:background="#eeeeee"/>
+            android:background="#D4C90D13"/>
+
 
         <EditText
             android:id="@+id/itemName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:inputType="text"
             android:hint="Item name..."
             android:padding="20dp" />
 
@@ -56,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:gravity="start"
+            android:inputType="text"
             android:layout_margin="10dp"
             android:hint="Item description..."
             android:padding="20dp" />

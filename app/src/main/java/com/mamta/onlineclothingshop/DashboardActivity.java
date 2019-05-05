@@ -65,13 +65,7 @@ public class DashboardActivity extends AppCompatActivity {
         loadItemsIntoList();
         ItemsAdapter itemsAdapter = new ItemsAdapter(this,allItemsList);
         recyclerView.setAdapter(itemsAdapter);
-
-        int spanCount = 1;
-        if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE
-        ){
-            spanCount = 2;
-        }
-        recyclerView.setLayoutManager(new GridLayoutManager(this,spanCount));
+        recyclerView.setLayoutManager(new GridLayoutManager(this,2));
 
 
         btnLogout = findViewById(R.id.btnLogout);
